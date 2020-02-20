@@ -1,0 +1,19 @@
+extends ../layout/master
+
+block content
+
+    h1 Create user
+
+    if errors
+        each err in errors
+            .alert.alert-danger= err
+
+    form(method="POST", action="/users/create", enctype="multipart/form-data")
+        .form-group
+            label Name
+            input(type="text", name="name", class="form-control")
+        .form-group
+            label Avatar
+            input(type="file", name="avatar", class="form-control-file")
+
+        button(class="btn btn-primary") Create

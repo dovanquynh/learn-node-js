@@ -1,0 +1,18 @@
+extends ../layout/master
+
+block content
+
+    h1 List
+    a(href="/users/create") Create
+    
+    table.table
+        tr 
+            th Name 
+
+        each user in users
+            tr
+                td= user.name
+                td
+                    a(href=`/users/${user.id}`) View
+                td 
+                    img(src=user.avatar, width="50px")

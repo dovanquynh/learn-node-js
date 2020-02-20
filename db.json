@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "name": "quynh",
+      "id": "qfLHKWLz",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "a",
+      "id": "zL5J6lB7",
+      "email": "admin1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "aasd",
+      "id": "HQwTKris",
+      "email": "admin2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "asdsd",
+      "id": "2FiTPqS9",
+      "email": "admin3@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "qqqq",
+      "id": "wnjQ4EgG",
+      "avatar": "uploads/6cab5e687147b64776857382de7e27b8"
+    }
+  ]
+}
